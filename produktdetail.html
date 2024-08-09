@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Schreinerei Mustermann</title>
+    <title>Produktdetails - Schreinerei Mustermann</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -23,8 +23,18 @@
     </header>
     <main>
         <section>
-            <h2>Willkommen bei der Schreinerei Mustermann</h2>
-            <p>Wir bieten Ihnen handgefertigte Möbel nach Maß. Unsere Produktpalette umfasst Regale, Tische und Möbel für jeden Bedarf.</p>
+            <h2>Produktdetails</h2>
+            <p>Details zu dem ausgewählten Produkt hier.</p>
+            <h3>Termin vereinbaren</h3>
+            <form action="#">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="date">Wunschtermin:</label>
+                <input type="date" id="date" name="date" required>
+                <button type="submit">Absenden</button>
+            </form>
         </section>
     </main>
     <footer>
